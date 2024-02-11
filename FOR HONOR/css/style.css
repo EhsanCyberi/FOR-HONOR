@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(./Vazir.woff2);
+}
+
+.body {
+    font-size: 16px;
+    font-family: 'vazir';
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+}
+
+.wheat-math {
+    border: none;
+    border-bottom: 3px solid #005fff;
+    outline: none;
+    background-color: #555555;
+    width: 12rem;
+    height: 22px;
+    border-radius: 3px;
+    color: #d8e5f1;
+    direction: ltr;
+}
+
+.wheat-math::placeholder {
+    font-family: 'vazir';
+    color: #d8e5f1;
+    text-align: center;
+}
+
+.margins-top {
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    box-shadow: 4px 4px 15px black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    width: 134px;
+    background-color: #2e2e2e;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.names {
+    margin-bottom: 0;
+    color: rgb(0 140 255);
+    border-right: 5px solid #a1a1a1;
+    background: #525252;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 130px;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+.material {
+    display: flex;
+    margin-left: 35px;;
+}
+
+.icon-faction {
+    margin-right: 10px;
+}
+
+.org {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.decor {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 140, 255);
+    margin: 10px 80px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 10px;
+    font-family: 'vazir';
+    padding: 9px 30px;
+    background-color: rgb(0 140 255);
+    border-radius: 15px;
+    border: 0px solid ;
+}
+
+.all {
+    color: white;
+}
+
+.input {
+    width: 55px;
+    height: 35px;
+    text-align: center;
+    outline: none;
+    border: 3px solid #0077ff;
+    background: #2d2d2d;
+    border-radius: 10px;
+    color: aliceblue;
+    direction: ltr;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    margin-top: 20px;
+    font-family: 'vazir';
+    padding: 10px 37px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 15px;
+    border: 0px solid ;
+}
+
+.copy {
+    margin-right: 7rem;
+    margin-top: 10px;
+    font-family: 'vazir';
+    padding: 5px 25px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 15px;
+    border: 0px solid ;
+}
+
+.dis-none {
+    display: none;
+}
+
+.name {
+    margin-bottom: 0;
+    color: rgb(0 140 255);
+    padding-right: 8px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    box-shadow: 4px 4px 15px black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    width: 18rem;
+    background-color: #2e2e2e;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
